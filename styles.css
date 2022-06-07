@@ -26,15 +26,18 @@ body {
     border-radius: 20px;
 }
 
-.star {
+.star svg{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: hsl(219, 12%, 27%);
-    width: 13%;
-    border-radius: 50%;
-    padding: 15px;
     margin: 10px;
+}
+
+.star {
+    padding: 5px;
+    background-color: hsl(219, 12%, 27%);
+    border-radius: 50%;
+    width: fit-content;
 }
 
 h2 {
@@ -55,11 +58,14 @@ p {
 }
 
 .rating button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 15px;
     background-color: hsl(219, 12%, 27%);
     border: none;
     border-radius: 50%;
-    width: 13%;
+    width: 15%;
     color: hsl(217, 12%, 63%);
     text-decoration: none;
     text-align: center;
@@ -68,7 +74,7 @@ p {
 
 .rating button:hover {
     color: #fff;
-    background-color: hsl(25, 97%, 53%);
+    background-color: orangered;
     cursor: pointer;
     /* transition: ease-in-out 1s; */
 }
