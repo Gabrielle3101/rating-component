@@ -115,7 +115,7 @@ p {
 
 .selected {
     padding: 5px 15px;
-    margin: 0 70px;
+    /* margin: 0 70px; */
     color: hsl(25, 97%, 53%);
     background-color: hsl(219, 12%, 27%);
     border-radius: 20px;
